@@ -1,0 +1,29 @@
+tivo.rb
+=======
+
+Requirements
+------------
+
+Known to work on Linux.
+
+- [TiVo File Decoder](http://tivodecode.sourceforge.net)
+- [Pipe Viewer](http://www.ivarch.com/programs/pv.shtml)
+- [Curl](http://curl.haxx.se/)
+
+Configuration
+-------------
+
+Edit tivo.conf
+
+Usage
+-----
+
+    $ ./tivo.rb help
+    $ ./tivo.rb list
+    $ ./tivo.rb get <id>
+    $ ./tivo.rb details <id>
+    $ ./tivo.rb search <expression>
+
+### Advanced Usage
+
+    $ ./tivo.rb search <expression> | ./tivo.rb get
